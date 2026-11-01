@@ -26,9 +26,6 @@ A production-style banking data platform built on GCP that ingests batch + CDC d
 
 ---
 
-## 📂 Repository Structure
-
----
 
 ## 🗄 Source System
 
