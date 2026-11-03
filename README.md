@@ -6,8 +6,8 @@ A production-style banking data platform built on GCP that ingests batch + CDC d
 ---
 
 ## 🏗 Architecture Overview
+<img width="1837" height="738" alt="Screenshot 2026-11-03 170053" src="https://github.com/user-attachments/assets/abd1460d-9b7f-4329-844c-da29c8efb82b" />
 
-**Orchestration:** Cloud Composer `master_dag` → triggers `ingestion` → `bronze` → `silver` → `gold` sequentially with `wait_for_completion=True`.
 
 ---
 
